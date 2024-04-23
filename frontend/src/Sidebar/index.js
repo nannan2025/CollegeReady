@@ -281,7 +281,7 @@ const Sidebar = () => {
         <Profile clicked={profileClick}>
           <img
             onClick={() => handleProfileClick()}
-            src="https://picsum.photos/200"
+            src="../../public/College.png"
             alt="Profile"
           />
           <Details clicked={profileClick}>
