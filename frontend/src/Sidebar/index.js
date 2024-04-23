@@ -10,7 +10,7 @@ import Documents from "../assets/draft.svg";
 import PowerOff from "../assets/power-off-solid.svg";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
-
+import img from "../assets/college.png"
 const Container = styled.div`
   position: fixed;
 
@@ -145,7 +145,7 @@ const Profile = styled.div`
   padding: 0.5rem 1rem;
   /* border: 2px solid var(--white); */
   border-radius: 20px;
-
+  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -281,7 +281,7 @@ const Sidebar = () => {
         <Profile clicked={profileClick}>
           <img
             onClick={() => handleProfileClick()}
-            src="./college.png"
+            src={img}
             alt="Profile"
           />
           <Details clicked={profileClick}>
